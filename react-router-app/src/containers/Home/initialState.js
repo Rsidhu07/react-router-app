@@ -22,6 +22,7 @@ export const initialState = {
       value: '',
       validation: {
         required: true,
+        minLength: 8
       },
       valid: false,
       touched: false
